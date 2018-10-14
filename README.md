@@ -39,9 +39,9 @@ The objective of this project is to implement a lexical analyzer that accepts th
 These keywords cannot be used as identifiers, but can be parts of identifiers, like "iff" and "delse". In this and the next three projects, we assume that the identifiers and keywords are case-sensitive. The implementation should be based on the above DFA. Your lexical analyzer program should clearly separate the driver and the state-transition function so that the driver will remain invariant and only state-transition functions will change from DFA to DFA. The enumerated or integer type is suggested for representation of states. 
 
 The following keyword recognition method is adequate for this project.
-Create 11 additional DFA states for the keywords.
-The DFA initially accepts the keywords as identifiers.
-Each time the DFA accepts an identifier, check if it is one of the keywords, and if so, move the DFA to the corresponding state.
+- [x] Create 11 additional DFA states for the keywords.
+- [x] The DFA initially accepts the keywords as identifiers.
+- [x] Each time the DFA accepts an identifier, check if it is one of the keywords, and if so, move the DFA to the corresponding state.
 
 ## License
 
